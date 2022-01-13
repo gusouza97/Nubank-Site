@@ -146,6 +146,11 @@ nav::after {
     border-style: none;
     padding-bottom: 8px;
     border-bottom: 1px solid #ccc;
+    transition: .5s;
+}
+
+.banner-form .input-cpf:hover {
+    border-bottom: 1px solid #000;
 }
 
 .banner-form .input-cpf:focus {
@@ -168,4 +173,46 @@ nav::after {
 
 .banner-form .input-submit:hover {
     cursor: pointer;
+}
+
+/* Main - CreditCard Container */
+
+.creditcard-container {
+    background-color: chartreuse;
+    height: 52em;
+}
+
+.creditcard-title {
+    margin-top: 18em;
+    margin-left: 2em;
+    position: relative;
+    float: left;
+    width: 49%;
+    background-color: aquamarine;
+    padding: 2em;
+}
+
+.creditcard-title h1 {
+    color: #8F23D6;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+.creditcard-title h1 {
+    color: #8F23D6;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.creditcard-title p {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.creditcard-img {
+    margin-top: 13em;
+    position: relative;
+    float: right;
+    width: 49%;
+    background-color: aqua;
 }
