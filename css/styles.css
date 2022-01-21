@@ -5,6 +5,7 @@ html {
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, p, span {
@@ -87,6 +88,10 @@ nav::after {
 
 .nav-container .nav-login a {
     text-decoration: none;
+}
+
+.nav-container .nav-login a:hover {
+    text-decoration: underline;
 }
 
 /* Main Banner  */
@@ -437,3 +442,65 @@ nav::after {
 .blog-title a:hover {
     text-decoration: underline;
 }
+
+/* footer-container */
+
+.footer-container {
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: absolute;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+hr {
+    border-color: #CCC;
+}
+
+.links-nubank-footer {
+    position: relative;
+    width: 24%;
+    float: left;
+    height: 20em;
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+
+.links-nubank-footer h6 {
+    font-size: 12pt;
+    font-weight: 300;
+}
+
+.links-nubank-footer a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.links-nubank-footer a:hover {
+    color: #8F23D6;
+}
+
+.links-nubank-footer li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.links-nubank-footer li span {
+    position: relative;
+    left: -38px;
+}
+
+.links-nubank-footer p {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.links-nubank-footer p span {
+    position: relative;
+    left: -38px;
+    color: #FFF;
+}
+
