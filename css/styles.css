@@ -94,6 +94,8 @@ nav::after {
 #main-banner {
     margin-top: 60px;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     height: 52em;
     background: url('../img/banner.PNG') no-repeat;
 }
@@ -103,7 +105,7 @@ nav::after {
     float: left;
     width: 40%;
     margin-top: 20em;
-    margin-left: 14em;;
+    margin-left: 14%;
 }
 
 .banner-title h1 {
@@ -176,43 +178,262 @@ nav::after {
 }
 
 /* Main - CreditCard Container */
+/* credit-container */
 
 .creditcard-container {
-    background-color: chartreuse;
-    height: 52em;
+    height: 60em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .creditcard-title {
-    margin-top: 18em;
-    margin-left: 2em;
+    margin-top: 15em;
+    margin-left: 19%;
     position: relative;
     float: left;
-    width: 49%;
-    background-color: aquamarine;
+    width: 30%;
     padding: 2em;
 }
 
-.creditcard-title h1 {
-    color: #8F23D6;
+.creditcard-title a {
     text-decoration: none;
-    font-size: 1.8em;
+}
+
+.creditcard-title a:hover {
+    text-decoration: underline #8F23D6;
 }
 
 .creditcard-title h1 {
     color: #8F23D6;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 2.2em;
 }
 
 .creditcard-title p {
-    font-size: 1.8em;
+    color: #000;
+    font-size: 2.2em;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .creditcard-img {
-    margin-top: 13em;
+    margin-top: 15em;
     position: relative;
-    float: right;
-    width: 49%;
-    background-color: aqua;
+    float: left;
+    width: 40%;
+}
+
+/* card-container */
+
+.card-container {
+    height: 50em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F5;
+}
+
+.violetcard-title {
+    margin-top: 19em;
+    margin-left: 10%;
+    position: relative;
+    float: left;
+    width: 40%;
+    padding: 2em;
+}
+
+.violetcard-title a {
+    text-decoration: none;
+}
+
+.violetcard-title a:hover {
+    text-decoration: underline #8F23D6;
+}
+
+.violetcard-title h1 {
+    color: #8F23D6;
+    text-decoration: none;
+    font-size: 2.2em;
+}
+
+.violetcard-title p {
+    color: #000;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.violetcard-img {
+    margin-top: 8em;
+    position: relative;
+    float: left;
+    width: 35%;
+}
+
+.violetcard-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* accountnubank-container */
+
+.accountnubank-container {
+    height: 60em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F5;
+}
+
+.accountnubank-title {
+    margin-top: 20em;
+    margin-left: 20%;
+    position: relative;
+    float: left;
+    width: 30%;
+    padding: 2em;
+}
+
+.accountnubank-title a {
+    text-decoration: none;
+}
+
+.accountnubank-title a:hover {
+    text-decoration: underline #8F23D6;
+}
+
+.accountnubank-title h1 {
+    color: #8F23D6;
+    text-decoration: none;
+    font-size: 2.2em;
+}
+
+.accountnubank-title p {
+    color: #000;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.accountnubank-img {
+    margin-top: 15em;
+    position: relative;
+    float: left;
+    width: 35%;
+}
+
+/* aboutnubank-container */
+
+.aboutnubank-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60em;
+    background: url('../img/banner2.PNG') no-repeat;
+}
+
+.aboutnubank-title {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-top: 20em;
+    margin-left: 22%;
+}
+
+.aboutnubank-title h1 {
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.aboutnubank-title a {
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.aboutnubank-title a:hover {
+    text-decoration: underline;
+}
+
+/* nucommunity-container */
+
+.nucommunity-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60em;
+    background: url('../img/banner3.PNG') no-repeat;
+    background-size: cover;
+    margin-top: -52px;
+}
+
+.nucommunity-title {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-top: 20em;
+    margin-left: 22%;
+}
+
+.nucommunity-title h1, p {
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.nucommunity-title a {
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nucommunity-title a:hover {
+    text-decoration: underline;
+}
+
+/* blog-container */
+
+.blog-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60em;
+    background: url('../img/banner4.PNG') no-repeat;
+    background-size: cover;
+    margin-top: -52px;
+}
+
+.blog-title {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-top: 20em;
+    margin-left: 22%;
+}
+
+.blog-title h1 {
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.blog-title a {
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    text-decoration: underline;
 }
