@@ -451,21 +451,17 @@ nav::after {
     height: 100%;
     color: #FFF;
     position: absolute;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-hr {
-    border-color: #CCC;
 }
 
 .links-nubank-footer {
     position: relative;
-    width: 24%;
+    width: 20%;
     float: left;
     height: 20em;
     margin-bottom: 5em;
     margin-top: 2em;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .links-nubank-footer h6 {
@@ -502,5 +498,14 @@ hr {
     position: relative;
     left: -38px;
     color: #FFF;
+}
+
+.separator-footer {
+    display: block;
+    position: relative;
+    margin-top: 120px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
 }
 
