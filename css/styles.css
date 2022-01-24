@@ -501,7 +501,6 @@ nav::after {
 }
 
 .separator-footer {
-    display: block;
     position: relative;
     margin-top: 120px;
     border-top: 1px solid #ccc;
